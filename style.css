@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Figtree;
+  src: url(../fonts/Figtree-VariableFont_wght.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Fig;
+}
+
+header,
+footer {
+  background-color: black;
+  height: 5vh;
+}
+
+#wrapper {
+  background-color: hsl(47, 88%, 63%);
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#containerCard {
+  background-color: hsl(0, 0%, 100%);
+  width: 25vw;
+  box-shadow: 4px 4px 0 black;
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+#containerCard img:first-of-type {
+  max-width: 100%;
+  padding: 5%;
+  border-radius: 25px;
+  display: inline;
+}
+
+h3 {
+  background-color: hsl(47, 88%, 63%);
+  padding: 2%;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 0.8rem;
+
+  margin-left: 5%;
+}
+#containerCard div {
+  margin: 5%;
+}
+#containerCard div p:first-of-type {
+  padding-bottom: 5%;
+}
+
+#containerCard div p:nth-of-type(2) {
+  color: hsl(0, 0%, 50%);
+  padding-bottom: 5%;
+}
+
+h1 {
+  padding-bottom: 5%;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+#bottomDiv {
+  display: flex;
+  align-items: center;
+}
+
+#bottomDiv img:first-of-type {
+  padding: 0;
+  width: 40px;
+}
+
+#bottomPe {
+  font-weight: 800;
+  padding-left: 5%;
+  padding-bottom: 0 !important;
+  font-size: 0.8rem;
+}
